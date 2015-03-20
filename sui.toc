@@ -1,0 +1,8 @@
+## Interface: 60100
+## Title: 简单的头像插件
+## Notes: 简单的头像插件
+## Author: Moral
+
+target.lua
+player.lua
+config.lua
