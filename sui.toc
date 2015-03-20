@@ -3,6 +3,8 @@
 ## Notes: 简单的头像插件
 ## Author: Moral
 
-target.lua
-player.lua
 config.lua
+debug.lua
+node.lua
+player.lua
+target.lua
