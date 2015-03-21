@@ -120,7 +120,6 @@ CreateBorder(health_bar_background, 3, class_colo.r, class_colo.g, class_colo.b,
 -- factionGroup - Non-localized (English) faction name of the faction ('Horde', 'Alliance', or 'Neutral') (string) 
 local factionGroup, _ = UnitFactionGroup(PlayerFrame.unit)
 local factionRGB = nil
-debug(factionGroup)
 if factionGroup == "Horde" then
     factionRGB = {r = 255, g = 0, b = 0, a = 1}
 elseif factionGroup == "Alliance" then

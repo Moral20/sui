@@ -1,18 +1,19 @@
--- 这个文件承担创建组件的功能
--- 暂时支持创建 text, bar
 
 local aadon, ns = ...
 local cfg = ns.cfg
 
+-- 这个文件承担创建组件的功能
+-- 暂时支持创建 text, bar
+--
 function create_text_frame(frame_type, name, templete, text_type, pos, ...)
     local text, frame_table, frame = nil, {}, nil
 
     if text_type == nil then
-        text_type = cfg.default_text_type
+        text_type = cfg.sui_default_text_type
     end
 
     if pos == nil then
-        pos = cfg.default_text_pos
+        pos = cfg.sui_default_text_pos
     end
 
      if templet == nil then
@@ -43,11 +44,11 @@ end
 function create_bar_frame(frame_type, name, templete, bar_type, pos, ...)
     local bar, frame_table, frame, text = nil, {}, nil, nil
     if bar_type == nil then
-        bar_type = cfg.default_bar_type
+        bar_type = cfg.sui_default_bar_type
     end
 
     if pos == nil then
-        pos = cfg.default_bar_pos
+        pos = cfg.sui_default_bar_pos
     end
 
      if templet == nil then

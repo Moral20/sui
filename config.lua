@@ -13,14 +13,14 @@ local font = PlayerFrameHealthBarText:GetFont()
 
 -- 默认bar和text配置
 -----------------------------------------------------------------------
-cfg.default_text_type = {
+cfg.sui_default_text_type = {
     h = "RIGHT",
     font = font,
     text_height = 8,
     bord = "OUTLINE",
-},
+}
 
-cfg.default_text_pos = {
+cfg.sui_default_text_pos = {
     a1 = "RIGHT", 
     a2 = "RIGHT", 
     af = "health_bar",
@@ -28,9 +28,9 @@ cfg.default_text_pos = {
     y = 20, 
     width = 100,
     height = 10,
-},
+}
 
-cfg.default_bar_type = {
+cfg.sui_default_bar_type = {
     texture = "Interface\TargetingFrame\UI-StatusBar",
     r = 0,
     g = 255,
@@ -38,9 +38,9 @@ cfg.default_bar_type = {
     a = 1,
     min = 1,
     max = 100,
-},
+}
 
-cfg.default_bar_pos = {
+cfg.sui_default_bar_pos = {
     a1 = "RIGHT", 
     a2 = "RIGHT", 
     af = "health_bar",
@@ -48,7 +48,7 @@ cfg.default_bar_pos = {
     y = 20, 
     width = 100,
     height = 10,
-},
+}
 -- 默认bar和text配置
 -----------------------------------------------------------------------
 
